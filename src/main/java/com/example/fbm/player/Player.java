@@ -8,6 +8,8 @@ public class Player {
 
     private String backNum;
 
+    private Position position;
+
     public long getPlayer_id() {
         return player_id;
     }
@@ -30,5 +32,13 @@ public class Player {
 
     public void setBackNum(String backNum) {
         this.backNum = backNum;
+    }
+
+    public Position getPosition() {
+        return position;
+    }
+
+    public void setPosition(Position position) {
+        this.position = position;
     }
 }
